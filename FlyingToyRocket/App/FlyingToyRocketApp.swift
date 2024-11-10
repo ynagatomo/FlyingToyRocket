@@ -25,6 +25,7 @@ struct FlyingToyRocketApp: App {
                     }
                 }
         }
+        .windowResizability(.contentSize)
 
         ImmersiveSpace(id: appModel.immersiveSpaceID) {
             ImmersiveView()
@@ -45,13 +46,13 @@ struct FlyingToyRocketApp: App {
         Task {
             appModel.immersiveSpaceState = .inTransition
             switch await openImmersiveSpace(id: appModel.immersiveSpaceID) {
-                case .opened:
-                    break
-                case .userCancelled, .error:
-                    fallthrough
-                @unknown default:
-                    appModel.immersiveSpaceState = .closed
-                    appModel.showingImmersiveSpace = false
+            case .opened:
+                break
+            case .userCancelled, .error:
+                fallthrough
+            @unknown default:
+                appModel.immersiveSpaceState = .closed
+                appModel.showingImmersiveSpace = false
             } // switch
         } // Task
     } // func

@@ -17,15 +17,9 @@ struct PlayingView: View {
             }, label: {
                 Text("End")
             })
-            .padding()
             .disabled(appModel.immersiveSpaceState != .open)
-
-//            Model3D(named: "Scene", bundle: realityKitContentBundle)
-//                .padding(.bottom, 50)
-//            Text("Hello, world!")
-//            ToggleImmersiveSpaceButton()
         } // VStack
-        .padding()
+        .frame(width: 100, height: 80)
     }
 }
 
