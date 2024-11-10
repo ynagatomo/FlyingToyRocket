@@ -13,6 +13,8 @@ Arrange it as you like and make it a fun game.
 This app supports only Game Controller as a control way of the toy rocket.
 You'll soon want to use hand gestures instead. I'll leave that up to you. :)
 
+<img src="imgs/gamecontroller.png" width=200>
+
 
 ## Next Steps
 
