@@ -8,6 +8,8 @@ Arrange it as you like and make it a fun game.
 - Xcode 16.2 beta 2 , visionOS 2.1 (<em>visionOS 2.2 beta does not work with this project, due to its issue on Game Controller support.</em>)
 - Since this app uses a Game Controller to control a toy rocket, you need to use an Apple Vision Pro and a Game Controller like a PlayStation Dualsense.
 
+<img src="imgs/screenshot.jpg">
+
 ## Game Controller
 
 This app supports only Game Controller as a control way of the toy rocket.
