@@ -10,6 +10,8 @@ Arrange it as you like and make it a fun game.
 
 <img src="imgs/screenshot.jpg">
 
+<img src="imgs/rk720.gif">
+
 ## Game Controller
 
 This app supports only Game Controller as a control way of the toy rocket.
