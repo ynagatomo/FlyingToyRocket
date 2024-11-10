@@ -12,7 +12,6 @@
 		BA22B0E02CE0357C00FA4056 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0D92CE0357C00FA4056 /* ContentView.swift */; };
 		BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DA2CE0357C00FA4056 /* FlyingToyRocketApp.swift */; };
 		BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */; };
-		BA22B0E32CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */; };
 		BA22B0E42CE0357C00FA4056 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D52CE0357C00FA4056 /* Preview Assets.xcassets */; };
 		BA22B0E52CE0357C00FA4056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D82CE0357C00FA4056 /* Assets.xcassets */; };
 		BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */; };
@@ -31,7 +30,6 @@
 		BA22B0DA2CE0357C00FA4056 /* FlyingToyRocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingToyRocketApp.swift; sourceTree = "<group>"; };
 		BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
 		BA22B0DC2CE0357C00FA4056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
-		BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
 		BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extension.swift"; sourceTree = "<group>"; };
 		BA22B0EF2CE037D200FA4056 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA6624C42CE08A1900B3A749 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
@@ -122,7 +120,6 @@
 				BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */,
 				BAFD9B472CE09CDD00C01C55 /* StartView.swift */,
 				BAFD9B452CE09C3800C01C55 /* PlayingView.swift */,
-				BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -248,7 +245,6 @@
 				BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */,
 				BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */,
 				BA6624C52CE08A1900B3A749 /* Float+Extension.swift in Sources */,
-				BA22B0E32CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
 		};

@@ -21,8 +21,13 @@ struct StartView: View {
                 .scaledToFit()
                 .frame(width: 300)
 
-            Text("A Game Controller is required to control the rocket.")
-                .foregroundStyle(.yellow)
+            if appModel.gameControllerConnected == false {
+                Text("A Game Controller is required to control the rocket.")
+                    .foregroundStyle(.yellow)
+            } else {
+                Text("A Game Controller is connected.")
+                    .foregroundStyle(.green)
+            }
 
             Button(action: {
                 appModel.showingImmersiveSpace = true
@@ -34,6 +39,7 @@ struct StartView: View {
         } // VStack
         .padding()
         .frame(width: 800, height: 400)
+        .handlesGameControllerEvents(matching: .gamepad)
     }
 }
 
