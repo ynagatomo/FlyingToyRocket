@@ -35,6 +35,7 @@ struct ImmersiveView: View {
                 assertionFailure()
             }
         } // RealityView
+        .handlesGameControllerEvents(matching: .gamepad)
         .onDisappear {
             eventSubscription?.cancel() // fail-safe
             eventSubscription = nil

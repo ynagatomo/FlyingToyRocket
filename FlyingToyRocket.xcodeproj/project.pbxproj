@@ -16,6 +16,7 @@
 		BA22B0E42CE0357C00FA4056 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D52CE0357C00FA4056 /* Preview Assets.xcassets */; };
 		BA22B0E52CE0357C00FA4056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D82CE0357C00FA4056 /* Assets.xcassets */; };
 		BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */; };
+		BA6624C52CE08A1900B3A749 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6624C42CE08A1900B3A749 /* Float+Extension.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -31,6 +32,7 @@
 		BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
 		BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extension.swift"; sourceTree = "<group>"; };
 		BA22B0EF2CE037D200FA4056 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+		BA6624C42CE08A1900B3A749 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -123,6 +125,7 @@
 			isa = PBXGroup;
 			children = (
 				BA22B0EC2CE036B100FA4056 /* Logger */,
+				BA6624C42CE08A1900B3A749 /* Float+Extension.swift */,
 			);
 			path = Utilities;
 			sourceTree = "<group>";
@@ -236,6 +239,7 @@
 				BA22B0E02CE0357C00FA4056 /* ContentView.swift in Sources */,
 				BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */,
 				BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */,
+				BA6624C52CE08A1900B3A749 /* Float+Extension.swift in Sources */,
 				BA22B0E32CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift in Sources */,
 			);
 			runOnlyForDeploymentPostprocessing = 0;
