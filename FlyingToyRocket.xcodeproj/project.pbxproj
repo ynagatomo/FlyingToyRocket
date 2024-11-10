@@ -1,0 +1,456 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 77;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		BA22B0BE2CE034DD00FA4056 /* RealityKitContent in Frameworks */ = {isa = PBXBuildFile; productRef = BA22B0BD2CE034DD00FA4056 /* RealityKitContent */; };
+		BA22B0DF2CE0357C00FA4056 /* AppModel.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0D72CE0357C00FA4056 /* AppModel.swift */; };
+		BA22B0E02CE0357C00FA4056 /* ContentView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0D92CE0357C00FA4056 /* ContentView.swift */; };
+		BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DA2CE0357C00FA4056 /* FlyingToyRocketApp.swift */; };
+		BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */; };
+		BA22B0E32CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */; };
+		BA22B0E42CE0357C00FA4056 /* Preview Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D52CE0357C00FA4056 /* Preview Assets.xcassets */; };
+		BA22B0E52CE0357C00FA4056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D82CE0357C00FA4056 /* Assets.xcassets */; };
+		BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		BA22B0B82CE034DD00FA4056 /* FlyingToyRocket.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = FlyingToyRocket.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		BA22B0BC2CE034DD00FA4056 /* RealityKitContent */ = {isa = PBXFileReference; lastKnownFileType = wrapper; path = RealityKitContent; sourceTree = "<group>"; };
+		BA22B0D52CE0357C00FA4056 /* Preview Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = "Preview Assets.xcassets"; sourceTree = "<group>"; };
+		BA22B0D72CE0357C00FA4056 /* AppModel.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppModel.swift; sourceTree = "<group>"; };
+		BA22B0D82CE0357C00FA4056 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		BA22B0D92CE0357C00FA4056 /* ContentView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ContentView.swift; sourceTree = "<group>"; };
+		BA22B0DA2CE0357C00FA4056 /* FlyingToyRocketApp.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = FlyingToyRocketApp.swift; sourceTree = "<group>"; };
+		BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ImmersiveView.swift; sourceTree = "<group>"; };
+		BA22B0DC2CE0357C00FA4056 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = ToggleImmersiveSpaceButton.swift; sourceTree = "<group>"; };
+		BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extension.swift"; sourceTree = "<group>"; };
+		BA22B0EF2CE037D200FA4056 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		BA22B0B52CE034DD00FA4056 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B0BE2CE034DD00FA4056 /* RealityKitContent in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		BA22B0AF2CE034DD00FA4056 = {
+			isa = PBXGroup;
+			children = (
+				BA22B0EF2CE037D200FA4056 /* README.md */,
+				BA22B0DE2CE0357C00FA4056 /* FlyingToyRocket */,
+				BA22B0BB2CE034DD00FA4056 /* Packages */,
+				BA22B0B92CE034DD00FA4056 /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		BA22B0B92CE034DD00FA4056 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0B82CE034DD00FA4056 /* FlyingToyRocket.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		BA22B0BB2CE034DD00FA4056 /* Packages */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0BC2CE034DD00FA4056 /* RealityKitContent */,
+			);
+			path = Packages;
+			sourceTree = "<group>";
+		};
+		BA22B0D62CE0357C00FA4056 /* Preview Content */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0D52CE0357C00FA4056 /* Preview Assets.xcassets */,
+			);
+			path = "Preview Content";
+			sourceTree = "<group>";
+		};
+		BA22B0DE2CE0357C00FA4056 /* FlyingToyRocket */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0E72CE0359100FA4056 /* App */,
+				BA22B0E82CE0359B00FA4056 /* AppModel */,
+				BA22B0E92CE035A600FA4056 /* Views */,
+				BA22B0EB2CE036A600FA4056 /* Utilities */,
+				BA22B0D82CE0357C00FA4056 /* Assets.xcassets */,
+				BA22B0DC2CE0357C00FA4056 /* Info.plist */,
+				BA22B0D62CE0357C00FA4056 /* Preview Content */,
+			);
+			path = FlyingToyRocket;
+			sourceTree = "<group>";
+		};
+		BA22B0E72CE0359100FA4056 /* App */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0DA2CE0357C00FA4056 /* FlyingToyRocketApp.swift */,
+			);
+			path = App;
+			sourceTree = "<group>";
+		};
+		BA22B0E82CE0359B00FA4056 /* AppModel */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0D72CE0357C00FA4056 /* AppModel.swift */,
+			);
+			path = AppModel;
+			sourceTree = "<group>";
+		};
+		BA22B0E92CE035A600FA4056 /* Views */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */,
+				BA22B0D92CE0357C00FA4056 /* ContentView.swift */,
+				BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */,
+			);
+			path = Views;
+			sourceTree = "<group>";
+		};
+		BA22B0EB2CE036A600FA4056 /* Utilities */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0EC2CE036B100FA4056 /* Logger */,
+			);
+			path = Utilities;
+			sourceTree = "<group>";
+		};
+		BA22B0EC2CE036B100FA4056 /* Logger */ = {
+			isa = PBXGroup;
+			children = (
+				BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */,
+			);
+			path = Logger;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		BA22B0B72CE034DD00FA4056 /* FlyingToyRocket */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = BA22B0D02CE034DF00FA4056 /* Build configuration list for PBXNativeTarget "FlyingToyRocket" */;
+			buildPhases = (
+				BA22B0B42CE034DD00FA4056 /* Sources */,
+				BA22B0B52CE034DD00FA4056 /* Frameworks */,
+				BA22B0B62CE034DD00FA4056 /* Resources */,
+				BA22B0EA2CE035E100FA4056 /* ShellScript */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = FlyingToyRocket;
+			packageProductDependencies = (
+				BA22B0BD2CE034DD00FA4056 /* RealityKitContent */,
+			);
+			productName = FlyingToyRocket;
+			productReference = BA22B0B82CE034DD00FA4056 /* FlyingToyRocket.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		BA22B0B02CE034DD00FA4056 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				BuildIndependentTargetsInParallel = 1;
+				LastSwiftUpdateCheck = 1620;
+				LastUpgradeCheck = 1620;
+				TargetAttributes = {
+					BA22B0B72CE034DD00FA4056 = {
+						CreatedOnToolsVersion = 16.2;
+					};
+				};
+			};
+			buildConfigurationList = BA22B0B32CE034DD00FA4056 /* Build configuration list for PBXProject "FlyingToyRocket" */;
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = BA22B0AF2CE034DD00FA4056;
+			minimizedProjectReferenceProxies = 1;
+			preferredProjectObjectVersion = 77;
+			productRefGroup = BA22B0B92CE034DD00FA4056 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				BA22B0B72CE034DD00FA4056 /* FlyingToyRocket */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		BA22B0B62CE034DD00FA4056 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B0E42CE0357C00FA4056 /* Preview Assets.xcassets in Resources */,
+				BA22B0E52CE0357C00FA4056 /* Assets.xcassets in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		BA22B0EA2CE035E100FA4056 /* ShellScript */ = {
+			isa = PBXShellScriptBuildPhase;
+			alwaysOutOfDate = 1;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputFileListPaths = (
+			);
+			inputPaths = (
+			);
+			outputFileListPaths = (
+			);
+			outputPaths = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "# Adds support for Apple Silicon brew directory\nexport PATH=\"$PATH:/opt/homebrew/bin\"\n\nif which swiftlint >/dev/null; then\n  swiftlint\nelse\n  echo \"warning: SwiftLint not installed.\"\nfi\n";
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		BA22B0B42CE034DD00FA4056 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				BA22B0DF2CE0357C00FA4056 /* AppModel.swift in Sources */,
+				BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */,
+				BA22B0E02CE0357C00FA4056 /* ContentView.swift in Sources */,
+				BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */,
+				BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */,
+				BA22B0E32CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin XCBuildConfiguration section */
+		BA22B0D12CE034DF00FA4056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingToyRocket/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flying Toy Rocket";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.FlyingToyRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Debug;
+		};
+		BA22B0D22CE034DF00FA4056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				ASSETCATALOG_COMPILER_GLOBAL_ACCENT_COLOR_NAME = AccentColor;
+				CODE_SIGN_STYLE = Automatic;
+				CURRENT_PROJECT_VERSION = 1;
+				DEVELOPMENT_ASSET_PATHS = "\"FlyingToyRocket/Preview Content\"";
+				DEVELOPMENT_TEAM = J5CY9Q9UP5;
+				ENABLE_PREVIEWS = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = NO;
+				GENERATE_INFOPLIST_FILE = YES;
+				INFOPLIST_FILE = "$(TARGET_NAME)/Info.plist";
+				INFOPLIST_KEY_CFBundleDisplayName = "Flying Toy Rocket";
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				MARKETING_VERSION = 1.0;
+				PRODUCT_BUNDLE_IDENTIFIER = com.atarayosd.FlyingToyRocket;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SUPPORTED_PLATFORMS = "xros xrsimulator";
+				SWIFT_EMIT_LOC_STRINGS = YES;
+				SWIFT_STRICT_CONCURRENCY = complete;
+				SWIFT_VERSION = 6.0;
+				TARGETED_DEVICE_FAMILY = 7;
+				XROS_DEPLOYMENT_TARGET = 2.1;
+			};
+			name = Release;
+		};
+		BA22B0D32CE034DF00FA4056 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = xros;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = "DEBUG $(inherited)";
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Debug;
+		};
+		BA22B0D42CE034DF00FA4056 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				ASSETCATALOG_COMPILER_GENERATE_SWIFT_ASSET_SYMBOL_EXTENSIONS = YES;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++20";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_QUOTED_INCLUDE_IN_FRAMEWORK_HEADER = YES;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_USER_SCRIPT_SANDBOXING = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu17;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				LOCALIZATION_PREFERS_STRING_CATALOGS = YES;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = xros;
+				SWIFT_COMPILATION_MODE = wholemodule;
+				VALIDATE_PRODUCT = YES;
+				XROS_DEPLOYMENT_TARGET = 2.2;
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		BA22B0B32CE034DD00FA4056 /* Build configuration list for PBXProject "FlyingToyRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B0D32CE034DF00FA4056 /* Debug */,
+				BA22B0D42CE034DF00FA4056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		BA22B0D02CE034DF00FA4056 /* Build configuration list for PBXNativeTarget "FlyingToyRocket" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				BA22B0D12CE034DF00FA4056 /* Debug */,
+				BA22B0D22CE034DF00FA4056 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCSwiftPackageProductDependency section */
+		BA22B0BD2CE034DD00FA4056 /* RealityKitContent */ = {
+			isa = XCSwiftPackageProductDependency;
+			productName = RealityKitContent;
+		};
+/* End XCSwiftPackageProductDependency section */
+	};
+	rootObject = BA22B0B02CE034DD00FA4056 /* Project object */;
+}
