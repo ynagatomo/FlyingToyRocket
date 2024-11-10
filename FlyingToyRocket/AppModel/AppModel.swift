@@ -12,6 +12,8 @@ import GameController
 @MainActor
 @Observable
 class AppModel {
+    var showingImmersiveSpace: Bool = false
+
     let immersiveSpaceID = "ImmersiveSpace"
     enum ImmersiveSpaceState {
         case closed

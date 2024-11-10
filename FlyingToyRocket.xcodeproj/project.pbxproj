@@ -17,6 +17,8 @@
 		BA22B0E52CE0357C00FA4056 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = BA22B0D82CE0357C00FA4056 /* Assets.xcassets */; };
 		BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */; };
 		BA6624C52CE08A1900B3A749 /* Float+Extension.swift in Sources */ = {isa = PBXBuildFile; fileRef = BA6624C42CE08A1900B3A749 /* Float+Extension.swift */; };
+		BAFD9B462CE09C3800C01C55 /* PlayingView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD9B452CE09C3800C01C55 /* PlayingView.swift */; };
+		BAFD9B482CE09CDD00C01C55 /* StartView.swift in Sources */ = {isa = PBXBuildFile; fileRef = BAFD9B472CE09CDD00C01C55 /* StartView.swift */; };
 /* End PBXBuildFile section */
 
 /* Begin PBXFileReference section */
@@ -33,6 +35,8 @@
 		BA22B0ED2CE036E300FA4056 /* Logger+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Logger+Extension.swift"; sourceTree = "<group>"; };
 		BA22B0EF2CE037D200FA4056 /* README.md */ = {isa = PBXFileReference; lastKnownFileType = net.daringfireball.markdown; path = README.md; sourceTree = "<group>"; };
 		BA6624C42CE08A1900B3A749 /* Float+Extension.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = "Float+Extension.swift"; sourceTree = "<group>"; };
+		BAFD9B452CE09C3800C01C55 /* PlayingView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = PlayingView.swift; sourceTree = "<group>"; };
+		BAFD9B472CE09CDD00C01C55 /* StartView.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = StartView.swift; sourceTree = "<group>"; };
 /* End PBXFileReference section */
 
 /* Begin PBXFrameworksBuildPhase section */
@@ -114,9 +118,11 @@
 		BA22B0E92CE035A600FA4056 /* Views */ = {
 			isa = PBXGroup;
 			children = (
-				BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */,
 				BA22B0D92CE0357C00FA4056 /* ContentView.swift */,
 				BA22B0DB2CE0357C00FA4056 /* ImmersiveView.swift */,
+				BAFD9B472CE09CDD00C01C55 /* StartView.swift */,
+				BAFD9B452CE09C3800C01C55 /* PlayingView.swift */,
+				BA22B0DD2CE0357C00FA4056 /* ToggleImmersiveSpaceButton.swift */,
 			);
 			path = Views;
 			sourceTree = "<group>";
@@ -234,9 +240,11 @@
 			isa = PBXSourcesBuildPhase;
 			buildActionMask = 2147483647;
 			files = (
+				BAFD9B482CE09CDD00C01C55 /* StartView.swift in Sources */,
 				BA22B0DF2CE0357C00FA4056 /* AppModel.swift in Sources */,
 				BA22B0EE2CE036E300FA4056 /* Logger+Extension.swift in Sources */,
 				BA22B0E02CE0357C00FA4056 /* ContentView.swift in Sources */,
+				BAFD9B462CE09C3800C01C55 /* PlayingView.swift in Sources */,
 				BA22B0E12CE0357C00FA4056 /* FlyingToyRocketApp.swift in Sources */,
 				BA22B0E22CE0357C00FA4056 /* ImmersiveView.swift in Sources */,
 				BA6624C52CE08A1900B3A749 /* Float+Extension.swift in Sources */,

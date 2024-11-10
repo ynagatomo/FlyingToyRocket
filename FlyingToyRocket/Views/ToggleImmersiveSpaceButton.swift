@@ -4,7 +4,7 @@
 //
 //  Created by Yasuhito Nagatomo on 2024/11/10.
 //
-
+#if false
 import SwiftUI
 
 struct ToggleImmersiveSpaceButton: View {
@@ -56,3 +56,4 @@ struct ToggleImmersiveSpaceButton: View {
         .fontWeight(.semibold)
     }
 }
+#endif
