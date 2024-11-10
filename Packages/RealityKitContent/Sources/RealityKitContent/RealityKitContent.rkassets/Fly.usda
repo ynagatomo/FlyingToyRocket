@@ -1,0 +1,264 @@
+#usda 1.0
+(
+    customLayerData = {
+        string creator = "Reality Composer Pro Version 2.0 (448.0.16.0.3)"
+    }
+    defaultPrim = "Root"
+    metersPerUnit = 1
+    upAxis = "Y"
+)
+
+def Xform "Root"
+{
+    reorder nameChildren = ["ToyRocket", "SmokeParticle"]
+    def "ToyRocket" (
+        active = true
+        references = @ToyRocket.usdz@
+    )
+    {
+        reorder nameChildren = ["SmokeParticle", "JetParticle", "geom"]
+        float3 xformOp:scale = (1, 1, 1)
+        uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+        def Xform "JetParticle"
+        {
+            float2 ui:nodegraph:node:pos = (20, 20)
+            int ui:nodegraph:node:stackingOrder = 1
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0, 0.040552072, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitComponent "VFXEmitter"
+            {
+                token info:id = "RealityKit.VFXEmitter"
+
+                def RealityKitStruct "currentState"
+                {
+                    token birthDirection = "Local"
+                    token birthLocation = "Volume"
+                    int64 burstCount = 300
+                    float3 emissionDirection = (0, -1, 0)
+                    token emitterShape = "Cone"
+                    float3 shapeSize = (0.05, 0.05, 0.05)
+
+                    def RealityKitStruct "mainEmitter"
+                    {
+                        float birthRate = 200
+                        float4 endColorA = (0.0013006331, 0.032195132, 1, 1)
+                        float4 endColorB = (1, 1, 1, 1)
+                        float particleSize = 0.05
+                        float stretchFactor = 10
+                        bool useEndColor = 1
+                        bool useEndColorRange = 1
+                    }
+
+                    def RealityKitStruct "spawnedEmitter"
+                    {
+                    }
+                }
+            }
+        }
+
+        def Xform "SmokeParticle"
+        {
+            quatf xformOp:orient = (1, 0, 0, 0)
+            float3 xformOp:scale = (1, 1, 1)
+            float3 xformOp:translate = (0, -0.36, 0)
+            uniform token[] xformOpOrder = ["xformOp:translate", "xformOp:orient", "xformOp:scale"]
+
+            def RealityKitComponent "VFXEmitter"
+            {
+                token info:id = "RealityKit.VFXEmitter"
+
+                def RealityKitStruct "currentState"
+                {
+                    token birthDirection = "Constant"
+                    token birthLocation = "Surface"
+                    float3 emissionDirection = (0, 1, 0)
+                    double emissionDuration = 0.01
+                    double emissionDurationVariation = 0
+                    token emitterShape = "Cylinder"
+                    double idleDuration = 0
+                    double idleDurationVariation = 0
+                    bool isLocal = 0
+                    bool isSpawningEnabled = 0
+                    bool loops = 1
+                    float particleSpeed = 1
+                    float particleSpeedVariation = 0.1
+                    float3 shapeSize = (0.1, 0.2, 0.1)
+                    bool spawnInheritParentColor = 0
+                    token spawnOccasion = "OnDeath"
+                    float spawnSpreadFactor = 0
+                    float spawnSpreadFactorVariation = 0
+                    float spawnVelocityFactor = 1
+                    double warmupDuration = 0
+
+                    def RealityKitStruct "mainEmitter"
+                    {
+                        float3 acceleration = (0, -0.05, 0)
+                        token animationRepeatMode = "PlayOnce"
+                        token billboardMode = "Billboard"
+                        float birthRate = 2000
+                        float birthRateVariation = 0
+                        token blendMode = "Alpha"
+                        float colorEvolutionPower = 1
+                        int64 columnCount = 4
+                        float dampingFactor = 8
+                        float4 endColorA = (0.0013309671, 0.03458923, 1, 1)
+                        float4 endColorB = (0.11386989, 0.0064959256, 0.10626237, 1)
+                        float frameRate = 0
+                        float frameRateVariation = 0
+                        int64 initialFrame = 2
+                        int64 initialFrameVariation = 6
+                        bool isAnimated = 1
+                        bool isLightingEnabled = 0
+                        float noiseAnimationSpeed = 0
+                        float noiseScale = 1
+                        float noiseStrength = 0.1
+                        token opacityOverLife = "LinearFadeOut"
+                        float particleAngle = 0
+                        float particleAngleVariation = 0
+                        float particleAngularVelocity = 0
+                        float particleAngularVelocityVariation = 1
+                        asset particleImage = @ParticleEmitterPresetTextures/dustsheet.exr@
+                        double particleLifeSpan = 2
+                        double particleLifeSpanVariation = 1
+                        float particleMass = 1
+                        float particleMassVariation = 0.8
+                        float particleSize = 0.01
+                        float particleSizeVariation = 0
+                        float3 radialGravityCenter = (0, -0.1, 0)
+                        float radialGravityStrength = -0.1
+                        int64 rowCount = 4
+                        float sizeMultiplierAtEndOfLifespan = 8
+                        float sizeMultiplierAtEndOfLifespanPower = 0.2
+                        token sortOrder = "DecreasingDepth"
+                        float spreadingAngle = 0
+                        float4 startColorA = (1, 1, 1, 0.26)
+                        float4 startColorB = (1, 1, 1, 0.07)
+                        float stretchFactor = 0
+                        bool useEndColor = 0
+                        bool useEndColorRange = 0
+                        bool useStartColorRange = 1
+                        float3 vortexDirection = (0, 1, 0)
+                        float vortexStrength = 0
+                    }
+
+                    def RealityKitStruct "spawnedEmitter"
+                    {
+                    }
+                }
+            }
+        }
+
+        over "geom"
+        {
+            over "realistic"
+            {
+                over "materials"
+                {
+                    over "usdpreviewsurface1sg"
+                    {
+                        string inputs:file6:varname (
+                            customData = {
+                                dictionary realitykit = {
+                                    float2 positionInSubgraph = (321.375, 1014.5)
+                                }
+                            }
+                        )
+                        string inputs:file7:varname (
+                            customData = {
+                                dictionary realitykit = {
+                                    float2 positionInSubgraph = (532.875, 1014.5)
+                                }
+                            }
+                        )
+                        string inputs:file8:varname (
+                            customData = {
+                                dictionary realitykit = {
+                                    float2 positionInSubgraph = (746.375, 1014.5)
+                                }
+                            }
+                        )
+                        string inputs:file9:varname (
+                            customData = {
+                                dictionary realitykit = {
+                                    float2 positionInSubgraph = (959.375, 1014.5)
+                                }
+                            }
+                        )
+                        string inputs:file10:varname (
+                            customData = {
+                                dictionary realitykit = {
+                                    float2 positionInSubgraph = (1178.875, 1014.5)
+                                }
+                            }
+                        )
+                        token outputs:realitykit:vertex
+                        float2 ui:nodegraph:realitykit:subgraphOutputs:pos = (1415.25, 465.5)
+
+                        over "Lookup_st"
+                        {
+                            float2 ui:nodegraph:node:pos = (91, 465.5)
+                        }
+
+                        over "file9_mtlx"
+                        {
+                            float2 ui:nodegraph:node:pos = (889.5365, 812.696)
+                            int ui:nodegraph:node:stackingOrder = 34
+                        }
+
+                        over "file10_mtlx_scale"
+                        {
+                            float2 ui:nodegraph:node:pos = (622.75, 100.5)
+                        }
+
+                        over "file10_mtlx_offset"
+                        {
+                            float2 ui:nodegraph:node:pos = (892.25, 100.5)
+                        }
+
+                        over "toy_rocket_realistic_mat_mtlx"
+                        {
+                            color3f inputs:diffuseColor.connect = </Root/ToyRocket/geom/realistic/materials/usdpreviewsurface1sg/HSVAdjust.outputs:out>
+                            float2 ui:nodegraph:node:pos = (1162, 465.5)
+                        }
+
+                        over "file7_mtlx"
+                        {
+                            float2 ui:nodegraph:node:pos = (622.75, 485.5)
+                        }
+
+                        over "file8_mtlx"
+                        {
+                            float2 ui:nodegraph:node:pos = (892.25, 315)
+                        }
+
+                        over "file6_mtlx"
+                        {
+                            float2 ui:nodegraph:node:pos = (251.48187, 722.8195)
+                            int ui:nodegraph:node:stackingOrder = 36
+                        }
+
+                        over "file10_mtlx"
+                        {
+                            float2 ui:nodegraph:node:pos = (350, 100.5)
+                        }
+
+                        def Shader "HSVAdjust"
+                        {
+                            uniform token info:id = "ND_hsvadjust_color3"
+                            float3 inputs:amount = (0.5, 0.1, 1)
+                            color3f inputs:in.connect = </Root/ToyRocket/geom/realistic/materials/usdpreviewsurface1sg/file6_mtlx.outputs:out>
+                            color3f outputs:out
+                            float2 ui:nodegraph:node:pos = (474.64157, 852.3331)
+                            int ui:nodegraph:node:stackingOrder = 39
+                        }
+                    }
+                }
+            }
+        }
+    }
+}
+
