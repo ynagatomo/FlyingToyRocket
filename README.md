@@ -31,9 +31,13 @@ You'll soon want to use hand gestures instead. I'll leave that up to you. :)
 
 It would be interesting to compete to successfully land on the landing site.
 
-An example: Flying Space Shuttle
+Example 1: Flying Space Shuttle
 
 <img src="imgs/spaceshutlle.gif">
+
+Example 2: Flying Full-size Space Shuttle
+
+<img src="imgs/fullsizespaceshuttle.gif">
 
 ## Contribution
 
